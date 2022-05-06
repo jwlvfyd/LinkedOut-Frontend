@@ -81,6 +81,9 @@
           <el-menu-item v-if="isSelf" :index="`/userinfo/${userId}/recruitments`">
             已申请职位
           </el-menu-item>
+          <el-menu-item v-if="isSelf" :index="`/userinfo/${userId}/resume`">
+            简历解析
+          </el-menu-item>
         </el-menu>
       </el-card>
       
